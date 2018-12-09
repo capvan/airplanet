@@ -5,24 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AirPlanet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="Assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/Assets/css/normalize.css">
     <script src="main.js"></script>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="container">
-                <div class="header__col header__col-left">
+                <div class="header__col">
                     <div class="logo">
                         <a class="logo__link" href="#">
-                            <img class="logo__img" src="#" alt="Логотип">
-                            <span class="logo__title">Company Airplanet</span>
+                            <img class="logo__img" src="./Assets/img/logo/logo_header.png" alt="Логотип">
+                            <!--span class="logo__title">Company Airplanet</span-->
                         </a>
                     </div>
-                </div>
-                <div class="header__col header__col-right">
                     <div class="header-contact">
-                        <a class="header-contact__phone" href="8(800)00-392-10"></a>
+                        <a class="header-contact__phone" href="#">8(800)00-392-10</a>
                         <div class="header-contact__time">
                             <a class="header-contact__time-link" href="#">График работы:</a>
                         </div>
@@ -30,12 +29,13 @@
                 </div>
             </div>
         </header>
+        <div class="page">
         <div class="container">
             <aside class="sidebar">
                 <nav class="menu">
                     <ul class="menu__list">
-                        <li class="menu__item">
-                            <a class="menu__item-link menu__item-link--main is-active" href="#">Главная</a>
+                        <li class="menu__item--active">
+                            <a class="menu__item-link menu__item-link--main" href="#">Главная</a>
                         </li>
                         <li class="menu__item">
                             <a class="menu__item-link menu__item-link--comments" href="#">Отзывы</a>
@@ -49,7 +49,7 @@
             <main class="content">
                 <section class="content-banner">
                     <div class="banner">
-                        <img class="banner__img" src="#" alt="AirPlanet">
+                        <img class="banner__img" src="./Assets/img/Photo.png" alt="AirPlanet">
                     </div>
                 </section>
                 <section class="price">
@@ -238,6 +238,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </footer>    
 </body>
 </html>
