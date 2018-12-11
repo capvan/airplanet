@@ -209,6 +209,7 @@ body {
     background-repeat: no-repeat;
     width: 1007px;
     height: 265px;
+    float: left;
 }
 
 h1 {
