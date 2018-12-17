@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AirPlanet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <div class="header__logo logo">
+                    <a class="logo__link" href="#">
+                        <img class="logo__img" src="./assets/img/logo/logo_header.png" alt="Логотип">
+                        <span class="logo__title">Company Airplanet</span>
+                    </a>
+                </div>
+                <div class="header-contact">
+                    <a class="header-contact__phone" href="tel:88000039210">8(800)00-392-10</a>
+                    <div class="header-contact__time">
+                        <a class="header-contact__time-link" href="#">График работы:</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <aside class="sidebar">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item menu__item--active">
+                        <a class="menu__item-link menu__item-link--main" href="#">Главная</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link menu__item-link--comments" href="#">Отзывы</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link menu__item-link--team" href="#">Экипаж</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <section class="content-list">
+                <h2 class="section-title">Отзывы</h2>
+                <ul class="content-list__list">
+                    <li class="content-list__item">
+                        <div class="content-list__img">
+                            <img class="content-list__img-pic" src="./assets/img/comments/photo.jpg" alt="Picture">
+                        </div>
+                        <div class="content-list__text">
+                            <div class="content-list__text-date">12-10-2016</div>
+                            <div class="content-list__text-title">Ирина Паламарчук</div>
+                            <div class="content-list__text-desc">Классный полет, трясло первые полчаса так,
+                                что я боялась отстегнуть ремни. Слава Богу, ничего не случилось, но мне
+                                даже валерьянка не помогла, так страшно было. Рекомендую эту компанию. Но
+                                лучше доплатить и лететь с комфортом.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-list__item">
+                        <div class="content-list__img">
+                            <img class="content-list__img-pic" src="./assets/img/comments/photo2.jpg" alt="Picture">
+                        </div>
+                        <div class="content-list__text">
+                            <div class="content-list__text-date">01-02-2016</div>
+                            <div class="content-list__text-title">Александр Бельков</div>
+                            <div class="content-list__text-desc">Все понравилось, вежливые стюардессы, вовремя
+                                убирают, напитки предлагали 2 раза, а еду 1 раз. Единственное, что не понравилось,
+                                как-то мало места для ног, но с этим у меня часто проблема, рост 2.1м.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-list__item">
+                        <div class="content-list__img">
+                            <img class="content-list__img-pic" src="./assets/img/comments/photo3.jpg" alt="Picture">
+                        </div>
+                        <div class="content-list__text">
+                            <div class="content-list__text-date">22.12.2015</div>
+                            <div class="content-list__text-title">Игорь Николаенко</div>
+                            <div class="content-list__text-desc">Кормили супер вообще! Сказали, что это из-за того,
+                                что полет менее 2,5 часов. Но прибавьте к этому время регистрации в аэропорту. Летел
+                                с женой и мы очень проголодались. Просто имейте ввиду, берите с собой хотя бы бутерброды,
+                                чипсы какие-то или печенье.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-list__item">
+                        <div class="content-list__img">
+                            <img class="content-list__img-pic" src="./assets/img/comments/photo4.jpg" alt="Picture">
+                        </div>
+                        <div class="content-list__text">
+                            <div class="content-list__text-date">14.08.2015</div>
+                            <div class="content-list__text-title">Анастасия Порядная</div>
+                            <div class="content-list__text-desc">За такую цену просто все отлично! Кто не доволен,
+                                платите в 2 раза больше за аналогичные рейсы. Мне понравилось, что на борту было чисто,
+                                я аллергик и всегда чутко реагирую на пыль.Спасибо за полет! Рекомендую!
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="pagination">
+                    <div class="pagination__title">Страница 1 из 7</div>
+                    <div class="pagination__page">
+                        <a class="pagination__btn pagination__btn--prev pagination__btn--active" href="#">‹</a>
+                        <ul class="pagination__list">
+                            <li class="pagination__item pagination__item--active">
+                                <a class="pagination__link" href="#">1</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a class="pagination__link" href="#">2</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a class="pagination__link" href="#">3</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a class="pagination__link" href="#">4</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a class="pagination__link" href="#">5</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a class="pagination__link" href="#">6</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a class="pagination__link" href="#">7</a>
+                            </li>
+                        </ul>
+                        <a class="pagination__btn pagination__btn--next" href="#">›</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        </div>
+            <section class="blockquote">
+                <div class="blockquote__content">
+                    Вопросы по бронированию билетов в нашей авиакомпании принимаются.
+                    Для этого можно оставить
+                    <a class="blockquote__content-link" href="#">
+                        <u>заявку на сайте</u></a>
+                    или же позвонить по номеру круглосуточной
+                    поддержки
+                    <a class="header-contact__phone" href="tel:88000039210">
+                        <b>8(800)00-392-10</b>
+                    </a>
+                </div>
+            </section>
+            <section class="form">
+                <div class="form__wrapper">
+                    <div class="form__title">
+                        Оставить отзыв
+                    </div>
+                    <form action="" class="form__content">
+                        <div class="form__row">
+                            <label class="form__elem">
+                                <div class="form__elem-title">Ваше имя</div>
+                                <input type="text" class="form__elem-input" placeholder="Андрей">
+                            </label>
+                            <label class="form__elem">
+                                <div class="form__elem-title">Ссылка на ваш профиль VK</div>
+                                <input type="text" class="form__elem-input" placeholder="vk.com/example">
+                            </label>
+                        </div>
+                        <div class="form__row">
+                            <label class="form__elem">
+                                <div class="form__elem-title">Текст отзыва</div>
+                                <textarea name="" id="" cols="30" rows="3" class="form__elem-input form__textarea" placeholder="Мне понравилось"></textarea>
+                            </label>
+                        </div>
+                        <div class="form__row">
+                            <div class="form__radio">
+                                <div class="form__elem-title">Отображать фото в отзыве?</div>
+                                <div class="form__radio-wrap">
+                                    <label class="form__radio-label">
+                                        <input type="radio" class="form__radio-input" name="review" checked>
+                                        <div class="form__radio-fake"></div>
+                                        <div class="form__radio-text">Да</div>
+                                    </label>
+                                    <label class="form__radio-label">
+                                        <input type="radio" class="form__radio-input" name="review">
+                                        <div class="form__radio-fake"></div>
+                                        <div class="form__radio-text">Нет</div>
+                                    </label>
+                                    <label class="form__radio-label"></label>
+                                </div>
+                            </div>
+                            <div class="form__button">
+                                <button class="button">Отправить</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__col footer__col--left">
+                <p>Сделано с любовью и старанием
+                    <br> на курсе "HTML + CSS" в&nbsp;
+                    <a href="https://loftschool.com" class="footer-link">LoftSchool</a>
+                </p>
+                <p>Автор работы:
+                    <span class="text--strong">Кривенко Сергей</span></p>
+            </div>
+            <div class="footer__col footer__col--middle">
+                <div class="logo logo--footer">
+                    <a class="logo__link" href="#">
+                        <img class="logo__img" src="./assets/img/logo/logo_header.png" alt="Логотип">
+                        <span class="logo__title">Company Airplanet</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__col footer__col--right">
+                <div class="socials">
+                    <div class="socials__title">Наши социальные сети</div>
+                    <ul class="socials__list">
+                        <li class="socials__item">
+                            <a class="socials__item-link socials__item-link--vk" href="#">В контакте</a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__item-link socials__item-link--fb" href="#">Facebook</a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__item-link socials__item-link--google" href="#">Google</a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__item-link socials__item-link--twitter" href="#">Twitter</a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__item-link socials__item-link--mail" href="#">Mail</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
