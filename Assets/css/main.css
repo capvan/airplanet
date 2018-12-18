@@ -417,6 +417,10 @@ u {
     color: white;
 }
 
+.pagination__container {
+
+}
+
 .pagination {
     display: flex;
     justify-content: center;
@@ -425,6 +429,15 @@ u {
 
 .pagination__item {
     display: inline-block;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.pagination__item--active {
+    background-color: #4b73b5;
+    width: 25px;
+    height: 25px;
+    color: white;
 }
 
 .pagination__title {
@@ -446,6 +459,11 @@ u {
     line-height: 1.5;
     text-align: center;
     color: #221f1f;
+    margin-bottom: 70px
+}
+
+.pagination__link {
+    color: inherit;
 }
 
 .form {
@@ -678,6 +696,15 @@ u {
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
+
+.partner__item-img {
+    filter: grayscale(1);
+}
+
+.partner__item-img:hover {
+    filter: grayscale(0);
+}
+
 
 .footer {
     background-color: #4b73b5;
