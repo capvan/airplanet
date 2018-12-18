@@ -652,6 +652,7 @@ u {
     width: 33.3%;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .footer {
