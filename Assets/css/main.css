@@ -343,7 +343,6 @@ h1 {
 .content-list__list {
     list-style: none;
     padding: 0;
-    /*display: inline-block;*/
     flex-direction: column;
 }
 
@@ -415,10 +414,6 @@ h1 {
 
 u {
     color: white;
-}
-
-.pagination__container {
-
 }
 
 .pagination {
@@ -608,6 +603,10 @@ u {
     letter-spacing: 2px;
     cursor: pointer;
     transition: .5s;
+}
+
+.button::after {
+    background: url(/assets/img/icons/button_icon.png) center center no-repeat;
 }
 
 .button:hover {
