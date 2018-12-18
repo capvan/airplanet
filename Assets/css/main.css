@@ -70,6 +70,7 @@ body {
 
 .header .container {
     height: 77px;
+    align-items: center;
     /*position: relative;*/
 }
 .header__logo{
@@ -79,10 +80,10 @@ body {
     /*transform: translateY(-50%);*/
 }
 .logo__img {
-    margin-bottom: -35px;
+
 }
 .logo__title {
- /*position: absolute;*/
+    position: absolute;
      /*top: 0;*/
      left: -9999px;
 }
@@ -664,6 +665,7 @@ u {
     width: 1060px;
     height: 77px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer__col {
