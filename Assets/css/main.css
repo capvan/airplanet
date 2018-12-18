@@ -315,7 +315,9 @@ h1 {
     bottom: 0;
     font-size: 60%;
 }
-.section-title {
+.section-title,
+.content-title--team,
+.content-title--partners {
     margin-bottom: 40px;
     font-weight: bold;
     font-size: 49px;
@@ -567,15 +569,89 @@ u {
     color: grey;
 }
 
+.team {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .team__list {
     width: 270px;
-    display: inline-block;
-    margin-left: 20px;
+    /*display: inline-block;*/
+    /*margin-left: 20px;*/
     text-align: center;
     line-height: 21px;
-    vertical-align: top;
+    /*vertical-align: top;*/
     margin-bottom: 45px;
     padding: 0 10px;
+}
+
+.team__img-wrap {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 17px;
+}
+
+.team__img-wrap:after {
+    content: '';
+    background: rgba(75, 115, 181, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.team__img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.team__img-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.team__desc-user {
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+}
+
+.team__desc__occ {
+    font-size: 14px;
+    color: #4b73b5;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.team__desc-text {
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+}
+
+.partner__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner__item {
+    width: 33.3%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer {
