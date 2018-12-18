@@ -73,15 +73,14 @@ body {
     align-items: center;
     /*position: relative;*/
 }
-.header__logo{
+
+.header__logo {
     /*position: absolute;*/
     /*top: 50%;*/
     /*left: 0;*/
     /*transform: translateY(-50%);*/
 }
-.logo__img {
 
-}
 .logo__title {
     position: absolute;
      /*top: 0;*/
@@ -96,7 +95,6 @@ body {
     font-style: normal;
     text-align: right;
     margin-left: auto;
-
 }
 
 .header-contact__phone {
@@ -257,7 +255,7 @@ h1 {
     padding: 40px 20px 45px;
 }
 .price__item--active, .price__item:hover{
-    border: 1px solid red;
+    border: 1px solid #e8e9ed;
 }
 .price__img{
     width: 60px;
@@ -397,6 +395,11 @@ h1 {
 
 u {
     color: white;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
 }
 
 .pagination__item {
@@ -691,7 +694,25 @@ u {
 }
 
 .socials__list {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     list-style: none;
     font-size: 0;
+}
+
+.socials__item-link {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background-color: white;
+    margin-top: 9px;
+}
+
+.social__item-logo {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
 }
