@@ -616,6 +616,7 @@ u {
 
 .button-img {
     margin-left: 5px;
+    vertical-align: bottom;
 }
 
 .team {
