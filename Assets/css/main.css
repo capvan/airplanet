@@ -590,8 +590,7 @@ u {
 }
 
 .button {
-    /* display: inline-block; */
-    display: flex;
+    display: inline-block;
     padding: 15px 20px;
     background-color: #4b73b5;
     outline: none;
@@ -616,7 +615,7 @@ u {
 
 .button-img {
     margin-left: 5px;
-    vertical-align: bottom;
+    vertical-align: bottom; 
 }
 
 .team {
