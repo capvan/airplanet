@@ -590,7 +590,8 @@ u {
 }
 
 .button {
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
     padding: 15px 20px;
     background-color: #4b73b5;
     outline: none;
@@ -610,7 +611,11 @@ u {
 }
 
 .button:hover {
-    color: grey;
+    color: darkgray;
+}
+
+.button-img {
+    margin-left: 5px;
 }
 
 .team {
