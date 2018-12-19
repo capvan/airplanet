@@ -60,7 +60,7 @@ body {
     display: block;
     height: 77px;
 }
-
+/* Начало стилизации хедера */
 .header {
     background-color: #4b73b5;
     color: #ffffff;
@@ -97,6 +97,7 @@ body {
     font-weight: bold;
     color: rgba(255, 255, 255, 0.7);
 }
+/* Конец стилизации хедера */
 
 .container {
     margin: 0 auto;
